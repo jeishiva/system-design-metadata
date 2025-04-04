@@ -1,0 +1,23 @@
+{
+  "userId": "12345",
+  "videoId": "67890",
+  "eventType": "video_watch",
+  "timestamp": "2025-04-02T12:34:56Z",
+
+  "location": {
+    "geoHash": "9q8yy",
+    "stateCode": "CA",
+    "countryCode": "US"
+  },
+
+  "engagement": {
+    "watchPercentage": 80,
+    "seekCount": 3,
+    "paused": true
+  },
+
+  "ads": {
+    "adWatched": true,
+    "adSkipped": false
+  }
+}
