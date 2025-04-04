@@ -1,0 +1,77 @@
+{
+  "userId": "12345",
+  "videoId": "67890",
+  "eventType": "video_watch",
+  "timestamp": "2025-04-02T12:34:56Z",
+  
+  "session": {
+    "sessionId": "sess-987654",
+    "ipAddress": "192.168.1.1",
+    "lat": 37.7749,
+    "long": -122.4194
+  },
+  
+  "device": {
+    "deviceId": "device-abc123",
+    "deviceType": "android",
+    "os": "Android",
+    "osVersion": "12",
+    "appVersion": "1.4.3",
+    "userAgent": "Mozilla/5.0 (Linux; Android 12; Pixel 6)"
+  },
+  
+  "network": {
+    "networkType": "WiFi",
+    "carrier": "Verizon",
+    "connectionSpeedMbps": 50.5
+  },
+
+  "videoPlayback": {
+    "playbackDuration": 120,
+    "bitrateKbps": 1500,
+    "resolution": "1080p",
+    "frameRate": 30,
+    "bufferingCount": 3,
+    "bufferingDuration": 2.5,
+    "volumeLevel": 80,
+    "subtitlesEnabled": true,
+    "playbackSpeed": 1.0
+  },
+
+  "engagement": {
+    "isLiked": true,
+    "isShared": false,
+    "commented": false,
+    "watchPercentage": 80,
+    "seekCount": 3,
+    "seekPositions": [5, 30, 90],  
+    "paused": true,
+    "pauseDuration": 10
+  },
+
+  "ads": {
+    "adWatched": true,
+    "adDuration": 15,
+    "adType": "pre-roll",
+    "adSkipped": false,
+    "adClick": true
+  },
+
+  "referral": {
+    "referrer": "https://example.com",
+    "referrerSource": "social_media",
+    "referrerCampaignId": "campaign-789"
+  },
+
+  "errors": {
+    "errorOccurred": false,
+    "errorCode": null,
+    "errorDescription": null
+  },
+
+  "recommendation": {
+    "recommendedBy": "AI",
+    "recommendationScore": 87,
+    "previousWatchHistoryImpact": true
+  }
+}
